@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Project_Nhom__.Models.Loaihoa>
+<p class="lead">Các Loại Hoa</p>
+<style>
+    .lead {
+        font-size:30px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:orangered;
+    }
+</style>
+<div class="list-group">
+    @foreach (var item in Model)
+    {
+        <a href="@Url.Action("Hoatheoloai","Store", new {id = item.MaLH})" class="list-group-item">
+            @item.Tenloaihoa
+        </a>
+    }
+</div>
