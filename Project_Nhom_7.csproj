@@ -127,63 +127,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\DataFlower.designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DataFlower.dbml</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Giohang.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\css\bootstrap.css" />
-    <Content Include="Content\css\bootstrap.min.css" />
-    <Content Include="Content\css\shop-homepage.css" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Content\image_banner\SEVEN %281%29.jpg" />
-    <Content Include="Content\image_banner\SEVEN %282%29.jpg" />
-    <Content Include="Content\image_banner\SEVEN.jpg" />
-    <Content Include="Content\js\bootstrap.js" />
-    <Content Include="Content\js\bootstrap.min.js" />
-    <Content Include="Content\js\jquery.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="images_flo\camtucauxanh.jpg" />
-    <Content Include="images_flo\giohang.gif" />
-    <Content Include="Models\DataFlower.dbml">
-      <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>DataFlower.designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </Content>
-    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
-    <Content Include="images_flo\camtucautrang.jpg" />
-    <Content Include="images_flo\daonhattan.jpg" />
-    <Content Include="images_flo\daophai.jpg" />
-    <Content Include="images_flo\daothatthon.jpg" />
-    <Content Include="images_flo\hoahongdo.jpg" />
-    <Content Include="images_flo\hoahongtrang.jpg" />
-    <Content Include="images_flo\hoahongvang.jpg" />
-    <Content Include="images_flo\hoamai5canh.jpg" />
-    <Content Include="images_flo\hoamaichuy.jpg" />
-    <Content Include="images_flo\hoamainui.jpg" />
-    <Content Include="images_flo\thachthaotim.jpg" />
-    <Content Include="images_flo\thachthaotrang.jpg" />
-    <Content Include="images_flo\thachthaoxanh.jpg" />
-    <Content Include="Scripts\jquery-3.4.1.js" />
-    <Content Include="Scripts\jquery-3.4.1.min.js" />
-    <Content Include="Scripts\jquery-3.4.1.slim.js" />
-    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -191,39 +139,15 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Views\Web.config" />
-    <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Shared\_LayoutUser.cshtml" />
-    <Content Include="Views\Store\Index.cshtml" />
-    <Content Include="Views\Store\Loaihoa.cshtml" />
-    <Content Include="Views\Store\Nhacungcap.cshtml" />
-    <Content Include="Views\Store\Hoatheoloai.cshtml" />
-    <Content Include="Views\Store\Hoatheoncc.cshtml" />
-    <Content Include="Views\Store\Details.cshtml" />
-    <Content Include="Views\User\Dangky.cshtml" />
-    <Content Include="Views\User\Dangnhap.cshtml" />
-    <Content Include="Views\Giohang\Giohang.cshtml" />
-    <Content Include="Views\Giohang\Giohangpartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
-    <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Models\DataFlower.dbml.layout">
-      <DependentUpon>DataFlower.dbml</DependentUpon>
-    </None>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
